@@ -1,0 +1,31 @@
+{
+    "name": "gig-social",
+    "description": "Angular Social Share - Angular Module for Share in Facebook and Twitter",
+    "version": "0.0.1",
+    "homepage": "https://github.com/gigigo-html5/giganalytics",
+    "author": "Pedro José Peña Jerez <pedro.jose@gigigo.com>",
+    "main": "./src/gig-social.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gigigo-html5/gigsocial"
+    },
+    "engines": {
+        "node": ">= 0.8"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "bower": "*",
+        "karma": "~0.8.0",
+        "grunt": ">=0.4.0",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-release": "~0.3.3",
+        "grunt-conventional-changelog": "0.0.12"
+    },
+    "scripts": {
+        "test": "karma start test/karma.conf.js --single-run --browsers Chrome",
+        "test-server": "karma start test/karma.conf.js --browsers Chrome"
+    }
+}
